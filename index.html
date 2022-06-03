@@ -9,11 +9,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Tangerine:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -76,28 +71,28 @@
         <div class="container">
           <h2 class="hidden">Наши преимущества</h2>
           <ul class="features list">
-            <li class="features__item features__icon1">
+            <li class="features__item features__item--icon1">
               <h3 class="features__title title">Внимание к деталям</h3>
               <p class="features__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="features__item features__icon2">
+            <li class="features__item features__item--icon2">
               <h3 class="features__title title">Пунктуальность</h3>
               <p class="features__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="features__item features__icon3">
+            <li class="features__item features__item--icon3">
               <h3 class="features__title title">Планирование</h3>
               <p class="features__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="features__item features__icon4">
+            <li class="features__item features__item--icon4">
               <h3 class="features__title title">Современные технологии</h3>
               <p class="features__text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -486,45 +481,45 @@
     <!-- Модельное окно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="model">
-        <strong class="model-title"
+        <strong class="model__title"
           >Оставьте свои данные, мы вам перезвоним</strong
         >
         <form class="model-form">
-          <label class="label-grup">
-            <span class="model-name">Имя</span>
-            <input class="model-input" type="text" name="user-name" />
-            <svg class="modal-icon" width="16" height="16">
+          <label class="model-form__label">
+            <span class="model-form__name">Имя</span>
+            <input class="model-form__input" type="text" name="user-name" />
+            <svg class="model-form__icon" width="16" height="16">
               <use href="./images/sprite.svg#icon-person-modal"></use>
             </svg>
           </label>
 
-          <label class="label-grup">
-            <span class="model-name">Телефон</span>
-            <input class="model-input" type="text" name="user-phone" />
-            <svg class="modal-icon" width="16" height="16">
+          <label class="model-form__label">
+            <span class="model-form__name">Телефон</span>
+            <input class="model-form__input" type="text" name="user-phone" />
+            <svg class="model-form__icon" width="16" height="16">
               <use href="./images/sprite.svg#icon-phone-modal"></use>
             </svg>
           </label>
 
-          <label class="label-grup">
-            <span class="model-name">Почта</span>
-            <input class="model-input" type="text" name="user-email" />
-            <svg class="modal-icon" width="16" height="16">
+          <label class="model-form__label">
+            <span class="model-form__name">Почта</span>
+            <input class="model-form__input" type="text" name="user-email" />
+            <svg class="model-form__icon" width="16" height="16">
               <use href="./images/sprite.svg#icon-email-modal"></use>
             </svg>
           </label>
 
-          <label class="label-grup label-comment">
-            <span class="model-name">Коментарий</span>
+          <label class="model-form__label label-comment">
+            <span class="model-form__name">Коментарий</span>
             <textarea
-              class="modai-comment"
+              class="model-form__comment"
               placeholder="Введите текст"
             ></textarea>
           </label>
 
-          <label class="label-grup label-checkbox">
+          <label class="model-form__label label-checkbox">
             <input
-              class="model-checkbox hidden"
+              class="model-form__checkbox hidden"
               type="checkbox"
               name="user-checkbox"
             />

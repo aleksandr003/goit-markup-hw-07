@@ -12,19 +12,19 @@
     margin-bottom: 30px;
 }
 
-.features__icon1::before {
+.features__item--icon1::before {
     background-image: url("../images/antenna.svg");
 }
 
-.features__icon2::before {
+.features__item--icon2::before {
     background-image: url("../images/clock.svg");
 }
 
-.features__icon3::before {
+.features__item--icon3::before {
     background-image: url("../images/diagram.svg");
 }
 
-.features__icon4::before {
+.features__item--icon4::before {
     background-image: url("../images/astronaut.svg");
 }
 
