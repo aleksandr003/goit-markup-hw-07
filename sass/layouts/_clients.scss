@@ -1,9 +1,8 @@
 .clients {
-    display: flex;
     justify-content: center;
 }
 
-.clients .clients__link {
+.clients__link {
     width: 170px;
     height: 92px;
     display: flex;
@@ -15,6 +14,16 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover svg,
+    &:focus svg {
+        fill: var(--accant-color);
+    }
+    
+    &:hover,
+    &:focus {
+        border-color: var(--accant-color);
+    }
 }
 
 .clients__link svg {
@@ -23,16 +32,6 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients .clients__link:hover svg,
-.clients .clients__link:focus svg {
-    fill: var(--accant-color);
-}
-
-.clients__item .clients__link:hover,
-.clients__item .clients__link:focus {
-    border-color: var(--accant-color);
 }
 
 .clients__item:not(:last-child) {

@@ -21,7 +21,7 @@
     pointer-events: none;
 }
 
-.backdrop .model {
+.model {
     position: relative;
 
     padding: 40px;
@@ -36,35 +36,37 @@
     background-color: white;
 }
 
-.button-close {
-    position: absolute;
-    top: 8px;
-    right: 8px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    width: 30px;
-    height: 30px;
+// .button-close {
+//     position: absolute;
+//     top: 8px;
+//     right: 8px;
 
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    cursor: pointer;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
 
-    background-color: inherit;
-}
+//     width: 30px;
+//     height: 30px;
 
-.close-icon {
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+//     border: 1px solid rgba(0, 0, 0, 0.1);
+//     border-radius: 50%;
+//     cursor: pointer;
 
-.button-close:hover .close-icon,
-.button-close:focus .close-icon {
-    fill: var(--accant-color);
-}
+//     background-color: inherit;
+// }
+
+// .close-icon {
+//     transition-property: fill;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// }
+
+// .button-close:hover .close-icon,
+// .button-close:focus .close-icon {
+//     fill: var(--accant-color);
+// }
 
 .model__title {
     display: block;
